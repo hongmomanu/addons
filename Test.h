@@ -12,5 +12,6 @@
 
 
 -(void) instance_method1; // 实例方法
+-(NSString *)getName;
 
 @end

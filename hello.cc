@@ -14,11 +14,11 @@ using v8::Value;
 
 void Method(const FunctionCallbackInfo<Value>& args) {
   std::shared_ptr<CppFile> cppfile(new CppFile());
-  cppfile->print_cpp_Msg();
-  cppfile->print_oc_Msg();
+  //cppfile->print_cpp_Msg();
+  cppfile->printOcMsg();
   Isolate* isolate = args.GetIsolate();
   args.GetReturnValue().Set(String::NewFromUtf8(
-      isolate, "world !", NewStringType::kNormal).ToLocalChecked());
+      isolate, cppfile->getName(), NewStringType::kNormal).ToLocalChecked());
 }
 
 void Initialize(Local<Object> exports) {

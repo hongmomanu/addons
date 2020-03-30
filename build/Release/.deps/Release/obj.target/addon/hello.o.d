@@ -4,10 +4,12 @@ Release/obj.target/addon/hello.o: ../hello.cc \
   /Users/jack/Library/Caches/node-gyp/8.11.2/include/node/v8.h \
   /Users/jack/Library/Caches/node-gyp/8.11.2/include/node/v8-version.h \
   /Users/jack/Library/Caches/node-gyp/8.11.2/include/node/v8config.h \
-  /Users/jack/Library/Caches/node-gyp/8.11.2/include/node/node_version.h
+  /Users/jack/Library/Caches/node-gyp/8.11.2/include/node/node_version.h \
+  ../CppFile.h
 ../hello.cc:
 /Users/jack/Library/Caches/node-gyp/8.11.2/include/node/node.h:
 /Users/jack/Library/Caches/node-gyp/8.11.2/include/node/v8.h:
 /Users/jack/Library/Caches/node-gyp/8.11.2/include/node/v8-version.h:
 /Users/jack/Library/Caches/node-gyp/8.11.2/include/node/v8config.h:
 /Users/jack/Library/Caches/node-gyp/8.11.2/include/node/node_version.h:
+../CppFile.h:

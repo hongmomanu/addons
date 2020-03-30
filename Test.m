@@ -14,4 +14,9 @@
     NSLog(@"哈哈 我是OC");
 }
 
+-(NSString*)getName{
+    return @"object-c";
+}
+
+
 @end

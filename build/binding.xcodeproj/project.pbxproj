@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04D7C168232E4934000B2A14 /* CppFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04D7C167232E4934000B2A14 /* CppFile.mm */; };
-		04D7C16B232E5012000B2A14 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D7C16A232E5012000B2A14 /* Test.m */; };
+		0494D701243232460049ADB9 /* CppFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0494D6FE243232460049ADB9 /* CppFile.mm */; };
+		0494D702243232460049ADB9 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494D700243232460049ADB9 /* Test.m */; };
 		DC4C574611167EFC2E71E42A /* hello.cc in Sources */ = {isa = PBXBuildFile; fileRef = 20A1CAA8CEF6E1F6CB698087 /* hello.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04D7C166232E492D000B2A14 /* CppFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppFile.h; sourceTree = "<group>"; };
-		04D7C167232E4934000B2A14 /* CppFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CppFile.mm; sourceTree = "<group>"; };
-		04D7C169232E4FEE000B2A14 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		04D7C16A232E5012000B2A14 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		0494D6FD243232460049ADB9 /* CppFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppFile.h; sourceTree = "<group>"; };
+		0494D6FE243232460049ADB9 /* CppFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CppFile.mm; sourceTree = "<group>"; };
+		0494D6FF243232460049ADB9 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		0494D700243232460049ADB9 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		178609218A305335F5A37449 /* addon.gypi */ = {isa = PBXFileReference; explicitFileType = sourcecode; name = addon.gypi; path = "../../../../usr/local/lib/node_modules/node-gyp/addon.gypi"; sourceTree = "<group>"; };
 		20A1CAA8CEF6E1F6CB698087 /* hello.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello.cc; sourceTree = "<group>"; };
 		254E833C7BE0347206C55BBB /* addon.node */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = addon.node; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,11 +67,11 @@
 		ED92586A8B5B3A401788CF42 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				04D7C167232E4934000B2A14 /* CppFile.mm */,
-				04D7C166232E492D000B2A14 /* CppFile.h */,
+				0494D6FD243232460049ADB9 /* CppFile.h */,
+				0494D6FE243232460049ADB9 /* CppFile.mm */,
+				0494D6FF243232460049ADB9 /* Test.h */,
+				0494D700243232460049ADB9 /* Test.m */,
 				20A1CAA8CEF6E1F6CB698087 /* hello.cc */,
-				04D7C169232E4FEE000B2A14 /* Test.h */,
-				04D7C16A232E5012000B2A14 /* Test.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -124,9 +124,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D7C16B232E5012000B2A14 /* Test.m in Sources */,
+				0494D702243232460049ADB9 /* Test.m in Sources */,
 				DC4C574611167EFC2E71E42A /* hello.cc in Sources */,
-				04D7C168232E4934000B2A14 /* CppFile.mm in Sources */,
+				0494D701243232460049ADB9 /* CppFile.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
